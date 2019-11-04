@@ -1,0 +1,1 @@
+var mapButton=document.querySelector(".map__button"),mapPopUp=document.querySelector(".map__popup"),mapClose=mapPopUp.querySelector(".map__close");mapButton.addEventListener("click",function(e){e.preventDefault(),mapPopUp.classList.add("map__show")}),mapClose.addEventListener("click",function(e){e.preventDefault(),mapPopUp.classList.remove("map__show")});
