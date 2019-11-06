@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700,700i&display=swap&subset=cyrillic" rel="stylesheet">
-    <link rel="stylesheet" href="css/style-mini.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style-mini.css">
   </head>
   <body class="catalog__page">
 	<h1 class="visually__hidden">Каталог интернет магазина Device</h1>
@@ -175,13 +175,13 @@
 						<input class="visually__hidden" id="by-popularity" type="radio" name="sorting" value="popularity">
 						<label class="sorting__by" for="by-popularity">По популярности</label>
 					</li>
-					<li>
+					<li class="arrow__up">
 						<input class="visually__hidden" id="up" type="radio" name="up__down" value="up">
-						<label class="up" for="up">Up</label>
+						<label class="up" for="up"><span class="visually__hidden">up</span></label>
 					</li>
-					<li>
+					<li class="arrow__down">
 						<input class="visually__hidden" id="down" type="radio" name="up__down" value="down" checked>
-						<label class="down" for="down">Down</label>
+						<label class="down" for="down"><span class="visually__hidden">down</span></label>
 					</li>
 				</ul>
 			</div>
@@ -195,7 +195,7 @@
 	         		<a href="#" class="buy">В корзину</a>
 	          		<a href="#" class="compare">Добавить к сравнению</a>
 	        	</div>
-		        <div class="image"><img width="360" height="380" src="img/item-1.jpg" alt="Любительская селфи-палка"></div>
+		        <img width="360" height="380" src="img/item-1.jpg" alt="Любительская селфи-палка">
 		        <div class="item__caption">
 		        	<div class="title"><a href="#">Любительская селфи-палка</a></div>
 		        	<div class="price">500 руб.</div>
@@ -206,7 +206,7 @@
 	         		<a href="#" class="buy">В корзину</a>
 	          		<a href="#" class="compare">Добавить к сравнению</a>
 	        	</div>
-		        <div class="image"><img width="360" height="380" src="img/item-2.jpg" alt="Профессиональная селфи-палка"></div>
+		       <img width="360" height="380" src="img/item-2.jpg" alt="Профессиональная селфи-палка">
 		        <div class="item__caption">
 			        <div class="title"><a href="#">Профессиональная<br> селфи-палка</a></div>
 			        <div class="price">1500 руб.</div>
@@ -217,7 +217,7 @@
 	         		<a href="#" class="buy">В корзину</a>
 	          		<a href="#" class="compare">Добавить к сравнению</a>
 	        	</div>
-		        <div class="image"><img width="360" height="380" src="img/item-3.jpg" alt="Непотопляемая селфи-палка"></div>
+		        <img width="360" height="380" src="img/item-3.jpg" alt="Непотопляемая селфи-палка">
 			    <div class="item__caption">
 			        <div class="title"><a href="#">Непотопляемая селфи-палка</a></div>
 			        <div class="price">2500 руб.</div>
@@ -229,7 +229,7 @@
 	         		<a href="#" class="buy">В корзину</a>
 	          		<a href="#" class="compare">Добавить к сравнению</a>
 	        	</div>
-		        <div class="image"><img width="360" height="380" src="img/item-4.jpg" alt="Селфи-палка «Следуй за мной»"></div>
+		        <img width="360" height="380" src="img/item-4.jpg" alt="Селфи-палка «Следуй за мной»">
 		        <div class="item__caption">
 		        	<div class="title"><a href="#">Селфи-палка «Следуй за мной»</a></div>
 		        	<div class="price">4900 руб.</div>
@@ -271,18 +271,18 @@
 				</ul>
 				<ul class="footer__socials">
 					<li>
-						<a href="#">facebook<img src="img/fb.png" width="32" height="32" alt="facebook"></a>
+						<a href="#"><span class="visually__hidden">facebook</span><img src="img/fb.png" width="32" height="32" alt="facebook"></a>
 					</li>
 					<li>
-						<a href="#">instagramm<img src="img/insta.png" width="32" height="32" alt="instagramm"></a>
+						<a href="#"><span class="visually__hidden">instagramm</span><img src="img/insta.png" width="32" height="32" alt="instagramm"></a>
 					</li>
 					<li>
-						<a href="#">twitter<img src="img/twitter.png" width="32" height="32" alt="twitter"></a>
+						<a href="#"><span class="visually__hidden">twitter</span><img src="img/twitter.png" width="32" height="32" alt="twitter"></a>
 					</li>
 				</ul>
 			</div>
 			<div class="footer__right">
-				<ul>
+				<ul class="catalog-footer__right">
 				<li class="footer-buttons__login user-buttons">
 					<a href="#">
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -321,7 +321,7 @@
 				</li>
 				</ul>
 				<p><a href="tel:+74954959595">Тел.: +7 (495) 495-95-95</a></p>
-				<p  class="htmlacademy__logo"><a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-html.png" alt="htmlacademy logo"></a></p>
+				<p  class="htmlacademy__logo"><a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-html.png" alt="htmlacademy logo" width="27" height="35"></a></p>
 			</div>
 		</div>
 	</footer>
