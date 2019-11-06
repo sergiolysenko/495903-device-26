@@ -69,7 +69,7 @@ header .wrapper {
     display: -ms-flexbox;
     display: flex;
     flex-direction: column;
-    max-width: 1160px;
+    width: 1160px;
     min-height: 186px;
     margin-top: 40px;
     margin-right: auto;
@@ -296,7 +296,6 @@ header a {
     line-height: 24px;
     letter-spacing: 3.5px;
     text-transform: uppercase;
-
 }
 
 .nav__contacts {
@@ -377,7 +376,7 @@ header a {
 
 .main__slider {
     position: relative;
-    margin-bottom: 45px;
+    margin-bottom: 106px;
 }
 
 .slider__item {
@@ -385,8 +384,8 @@ header a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    min-height: 550px;
-    background-image: linear-gradient(to bottom, rgb(247, 226, 150) 20.5%, rgba(255, 255, 255, 0) 20.5%, rgba(255, 255, 255, 0) 100%);
+    min-height: 480px;
+    background-image: linear-gradient(to bottom, rgb(247, 226, 150) 23%, rgba(255, 255, 255, 0) 23%, rgba(255, 255, 255, 0) 100%);
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: flex-start;
@@ -394,6 +393,7 @@ header a {
 
 .slider__img {
     margin-left: auto;
+    align-self: center;
 }
 
 .slider__text {
@@ -536,7 +536,7 @@ header a {
     font-size: 0;
     position: absolute;
     z-index: 2;
-    top: 330px;
+    bottom: 150px;
     right: 63px;
 }
 
@@ -1642,20 +1642,22 @@ header a {
     -webkit-box-align: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
+    justify-content: center;
 }
 
 .catalog__filter {
     background-color: #eee;
-    -ms-flex-preferred-size: 420px;
-    flex-basis: 420px;
+    -ms-flex-preferred-size: 362px;
+    flex-basis: 362px;
     -ms-flex-negative: 0;
     flex-shrink: 0;
+    flex-grow: 1;
 }
 
 .filter__header {
-    max-width: 420px;
     min-height: 70px;
     background-color: #dcdcdc;
+    margin-left: auto;
 }
 
 .filter__header h2 {
@@ -1928,7 +1930,7 @@ header a {
 .section__catalog {
     -webkit-box-flex: 2;
     -ms-flex-positive: 2;
-    flex-grow: 2;
+    flex-grow: 1;
 }
 
 .sorting__wrapper {
@@ -2029,6 +2031,7 @@ header a {
     margin-left: 35px;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    width: 835px;
 }
 
 .catalog__item {
